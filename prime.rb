@@ -2,9 +2,9 @@
 include Math
 
 def prime?(num)
-  if num <= 1
-  	return false
-  end
+  # if num <= 1
+  # 	return false
+  # end
 
   i = 2
   while i <= Math.sqrt(num).floor
