@@ -10,6 +10,7 @@ def prime?(num)
   else
     i = 2
     root = Math.sqrt(num)
+    
     while i <= root.floor
       if ((i**num)%num == i%num)
       	return true
