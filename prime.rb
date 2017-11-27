@@ -1,12 +1,15 @@
 # Trial Division Test
-include Math
+# include Math
 
 def prime?(num)
   if num <= 1
     return false
+  elsif num == 2 || num == 3
+    return true
   else
     i = 2
-    while i <= Math.sqrt(num).floor
+    root = Math.sqrt(num)
+    while i <= root.floor
       if ((i**num)%num == i%num)
       	return true
       else
