@@ -1,1 +1,5 @@
-# Add  code here!
+# Trial Division TEst
+def prime
+
+end
+
