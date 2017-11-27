@@ -6,7 +6,7 @@ def prime?(num)
   while i <= Math.sqrt(num).floor
     if num <= 1
     	return false
-    elsif (i**num % num == i%num)
+    elsif ((i**num)%num == i%num)
     	return true
     else
       return false
