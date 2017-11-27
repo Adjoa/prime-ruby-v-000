@@ -1,5 +1,4 @@
-# Trial Division TEst
+# Trial Division Test
 def prime
 
 end
-
