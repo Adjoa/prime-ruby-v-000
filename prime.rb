@@ -2,13 +2,11 @@
 include Math
 
 def prime?(num)
-  # if num <= 1
-  # 	return false
-  # end
-
   i = 2
   while i <= Math.sqrt(num).floor
-    if (i**num % num == i%num)
+    if num <= 1
+    	return false
+    elsif (i**num % num == i%num)
     	return true
     else
       return false
