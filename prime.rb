@@ -1,5 +1,5 @@
 # Trial Division Test
-require 'math'
+include 'math'
 
 def prime
   if num <= 1
