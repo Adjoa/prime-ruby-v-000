@@ -1,4 +1,4 @@
-# Trial Division Test
+# Finding prime numbers using the Trial Division Test
 include Math
 
 def prime?(num)
