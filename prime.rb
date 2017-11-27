@@ -1,7 +1,7 @@
 # Trial Division Test
 include Math
 
-def prime?
+def prime?(num)
   if num <= 1
   	return false
   end
